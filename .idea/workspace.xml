@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="192dc788-5431-48f2-af4f-4f545f470b5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/flexible-programme@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo-image.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style-alternate-colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style-alternate-colors.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -60,8 +58,16 @@
       <option name="presentableId" value="Default" />
       <updated>1625320812370</updated>
       <workItem from="1625320813637" duration="2647000" />
-      <workItem from="1625323490046" duration="32762000" />
+      <workItem from="1625323490046" duration="45886000" />
     </task>
+    <task id="LOCAL-00001" summary="made responsive">
+      <created>1625390778058</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625390778059</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,5 +83,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="made responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="made responsive" />
   </component>
 </project>

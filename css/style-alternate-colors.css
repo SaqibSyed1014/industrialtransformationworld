@@ -4,7 +4,65 @@ h3{
 }
 .icon{
     text-align: center;
+    margin-bottom: 3rem;
 }
+.video-play-btn{
+    font-size: 65px;
+}
+section#course-section .content-video-modal .video-play-btn-wrapper{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    z-index: 1;
+    padding: 0;
+    text-align: center;
+    /*line-height: 60px;*/
+    color: #ffff;
+    display: inline-block;
+}
+section#course-section .content-video{
+    position: relative;
+}
+section#course-section .content-video img{
+    position: relative;
+    border-radius: 15px;
+    width: 100%;
+}
+section#course-section .content-video-modal .content-video:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #27272773;
+    border-radius: 15px;
+}
+.content-video-heading{
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    width: 90%;
+    /*padding: 10px;*/
+    left: 50%;
+    transform: translate(-50%, -15px);
+}
+.content-video-heading span{
+    color: #fff;
+    font-size: 15px;
+    font-weight: normal;
+    display: inline-block;
+}
+.content-video-heading h2{
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+
+
 .buttons-row .dark-btn{
     border-radius: 25px;
     /*padding: 3px 38px;*/
@@ -32,9 +90,9 @@ section#programme-structure{
 section#application-info .apply-date .date-info div{
     padding-bottom: 10px;
 }
-section#application-info .professors img{
+section#application-info .professors .img-wrapper img{
     border-radius: 20px;
-    box-shadow: 0 3px 8px #000000;
+    box-shadow: 0 3px 8px rgba(0,0,0, 0.1);
 }
 .img-wrapper{
     margin-bottom: 22px;
@@ -42,6 +100,7 @@ section#application-info .professors img{
 section#application-info .professors p{
     margin: 0;
 }
+
 .green-text{
     color: #0EC99D;
 }
@@ -54,7 +113,7 @@ ul{
     align-items: center;
 }
 .uni-footer .line{
-    width: 80%;
+    width: 100%;
     height: 1px;
     background-color: #272727;
 }
@@ -528,10 +587,32 @@ color: #fff;
     margin-bottom: 10px;
 }
 @media(min-width:1560px){
+    h2{
+        font-size: 5rem;
+    }
+    h3{
+        font-size: 4rem;
+    }
+    h4{
+        font-size: 3rem;
+    }
+    h5{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 2rem;
+    }
+    .hero-image-over-news h2{
+        font-size: 3rem;
+    }
+    .hero-image-over-news span{
+        font-size: 1.5rem;
+    }
+    section#featured-experts{
+
+    }
     .hero-content .info-box .info-box-content .expert-designation p {
-
         font-size: 18px;
-
     }
 }
 .hero-content .info-box .info-box-content .expert-company p {
@@ -1220,7 +1301,7 @@ section#footer h5 {
 
 .footer-subscriber form input {
     padding: 12px 20px;
-    width: 350px;
+    width: 100%;
     border-radius: 6px;
     border: none;
     color: #7D7D7D;
@@ -3467,8 +3548,16 @@ section#footer .input-wrap button {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-
+@media(max-width:350px){
+    .content-video-heading h2{
+        font-size: 6px;
+    }
+}
 @media(max-width:576px){
+
+    .content-video-heading span{
+        font-size: 6px;
+    }
     .ask-an-expert-category-row>div:first-child{
         margin: 0 15px;
     }
@@ -3535,6 +3624,12 @@ section#footer .input-wrap button {
 }
 
 @media (max-width: 1200px) {
+    .content-video-modal .video-play-btn{
+        font-size: 45px;
+    }
+    .content-video-heading h2{
+        font-size: 28px;
+    }
     .ask-an-expert-category-row .category-types>div {
         flex: 0 0 15%;
         max-width: 15%;
@@ -3542,6 +3637,15 @@ section#footer .input-wrap button {
 }
 
 @media (max-width: 992px) {
+    .content-video-heading span{
+        font-size: 12px;
+    }
+    .content-video-modal .video-play-btn{
+        font-size: 25px;
+    }
+    .content-video-heading h2{
+        font-size: 20px;
+    }
     .ask-an-expert-category-row .category-types>div {
         flex: 0 0 20%;
         max-width: 20%;
@@ -3549,6 +3653,15 @@ section#footer .input-wrap button {
 }
 
 @media (max-width: 768px) {
+    .content-video-heading span{
+        font-size: 8px;
+    }
+    .content-video-modal .video-play-btn{
+        font-size: 15px;
+    }
+    .content-video-heading h2{
+        font-size: 15px;
+    }
     .ask-an-expert-category-row .category-types>div {
         flex: 0 0 25%;
         max-width: 25%;
@@ -3563,6 +3676,18 @@ section#footer .input-wrap button {
 }
 
 @media (max-width: 576px) {
+    .content-video-modal .video-play-btn{
+        font-size: 10px;
+    }
+    .content-video-heading{
+        transform: translate(-50%, -10px);
+    }
+    .content-video-heading h2{
+        font-size: 10px;
+    }
+    .content-video-heading h2{
+        font-size: 10px;
+    }
     .ask-an-expert-category-row .category-types>div {
         flex: 0 0 33%;
         max-width: 33%;
@@ -5284,6 +5409,13 @@ outline: 0;
 }
 
 @media (max-width: 576px) {
+    .content-video-heading span{
+        font-size: 4px;
+    }
+    .content-video-heading h2{
+        margin: 0;
+        font-size: 7px;
+    }
     .featured-courses .course-wrap .content-inner {
         flex-direction: column;
         align-items: center;
