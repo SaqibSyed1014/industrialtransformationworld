@@ -58,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1625320812370</updated>
       <workItem from="1625320813637" duration="2647000" />
-      <workItem from="1625323490046" duration="45886000" />
+      <workItem from="1625323490046" duration="50497000" />
     </task>
     <task id="LOCAL-00001" summary="made responsive">
       <created>1625390778058</created>
@@ -67,7 +67,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625390778059</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="owl-carousel">
+      <created>1625409927033</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1625409927033</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +93,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="made responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="made responsive" />
+    <MESSAGE value="owl-carousel" />
+    <option name="LAST_COMMIT_MESSAGE" value="owl-carousel" />
   </component>
 </project>

@@ -28,6 +28,9 @@ section#course-section .content-video img{
     border-radius: 15px;
     width: 100%;
 }
+section#course-section .content-video-modal{
+    margin: 3% 0;
+}
 section#course-section .content-video-modal .content-video:after{
     content: '';
     position: absolute;
@@ -43,7 +46,6 @@ section#course-section .content-video-modal .content-video:after{
     bottom: 0;
     z-index: 1;
     width: 90%;
-    /*padding: 10px;*/
     left: 50%;
     transform: translate(-50%, -15px);
 }
@@ -99,6 +101,9 @@ section#application-info .professors .img-wrapper img{
 }
 section#application-info .professors p{
     margin: 0;
+}
+#application-info .uni-footer .about-uni p{
+    font-size: 11px;
 }
 
 .green-text{
@@ -586,7 +591,7 @@ color: #fff;
     font-size: 16px;
     margin-bottom: 10px;
 }
-@media(min-width:1560px){
+@media(min-width:2000px){
     h2{
         font-size: 5rem;
     }
@@ -599,8 +604,15 @@ color: #fff;
     h5{
         font-size: 2rem;
     }
-    p{
+    p, ul, table, #application-info .uni-footer .about-uni p{
         font-size: 2rem;
+    }
+    .small{
+        font-size: 1rem;
+    }
+    #application-info .professors-info .uni-logo{
+        height: 50px;
+        width: 70px;
     }
     .hero-image-over-news h2{
         font-size: 3rem;
@@ -614,6 +626,19 @@ color: #fff;
     .hero-content .info-box .info-box-content .expert-designation p {
         font-size: 18px;
     }
+    .content-video-heading{
+        padding-bottom: 2rem;
+    }
+    .content-video-modal .video-play-btn{
+        font-size: 95px;
+    }
+    .content-video-modal .content-video-heading h2{
+        font-size: 5rem;
+    }
+    .content-video-modal .content-video-heading span{
+        font-size: 2rem;
+    }
+
 }
 .hero-content .info-box .info-box-content .expert-company p {
     font-size: 18px;
@@ -3623,12 +3648,12 @@ section#footer .input-wrap button {
     color: #fff;
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1500px) {
     .content-video-modal .video-play-btn{
         font-size: 45px;
     }
     .content-video-heading h2{
-        font-size: 28px;
+        font-size: 3rem;
     }
     .ask-an-expert-category-row .category-types>div {
         flex: 0 0 15%;
