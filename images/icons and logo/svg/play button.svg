@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_18180" data-name="Rectangle 18180" width="70" height="70" transform="translate(11087 9101)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="play_button" data-name="play button" transform="translate(-11087 -9101)" clip-path="url(#clip-path)">
+    <path id="Icon_ionic-md-play-circle" data-name="Icon ionic-md-play-circle" d="M37.484,2.484a35,35,0,1,0,35,35,35,35,0,0,0-35-35Zm-7,50.75v-31.5l21,15.751Z" transform="translate(11084.516 9098.516)" fill="#fff"/>
+  </g>
+</svg>

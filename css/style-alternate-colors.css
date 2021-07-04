@@ -1,10 +1,17 @@
+h3{
+    font-weight: bolder;
+    padding-top: 13px;
+}
+.icon{
+    text-align: center;
+}
 .buttons-row .dark-btn{
     border-radius: 25px;
-    padding: 3px 38px;
+    /*padding: 3px 38px;*/
+    width: 100%;
     background-color: transparent;
     border: 2px solid #272727;
     color: #272727;
-    margin: 0 15px;
 }
 .buttons-row .active{
     background-color: #0EC99D;
@@ -19,10 +26,38 @@ section#course-section, section#application-info{
     margin: 0 32%;
     background: transparent;
 }
+section#programme-structure{
+    padding: 50px 0;
+}
 section#application-info .apply-date .date-info div{
     padding-bottom: 10px;
 }
-
+section#application-info .professors img{
+    border-radius: 20px;
+    box-shadow: 0 3px 8px #000000;
+}
+.img-wrapper{
+    margin-bottom: 22px;
+}
+section#application-info .professors p{
+    margin: 0;
+}
+.green-text{
+    color: #0EC99D;
+}
+ul{
+    padding-left: 17px;
+}
+.uni-footer .break-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.uni-footer .line{
+    width: 80%;
+    height: 1px;
+    background-color: #272727;
+}
 
 
 
