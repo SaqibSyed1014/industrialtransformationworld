@@ -6,6 +6,22 @@ h3{
     text-align: center;
     margin-bottom: 3rem;
 }
+.icon-caption{
+    font-size: 10pt;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.course-button{
+    background: #0EC99D;
+    border-radius: 4px;
+    padding: 9px 30px;
+    border: none;
+    color: #F4F4F4;
+    margin: 1.6rem 0;
+}
+section#news-updates, #featured-courses{
+    padding: 50px 0;
+}
 .video-play-btn{
     font-size: 65px;
 }
@@ -283,6 +299,14 @@ section#header {
     top: 50%;
     transform: translate(0px, -50%);
     width: 100%;
+}
+@media (max-width: 1400px){
+    .owl-nav {
+        position: absolute;
+        top: -50px;
+        transform: translate(0px, 0%);
+        width: 100%;
+    }
 }
 
 
