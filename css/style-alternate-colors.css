@@ -154,7 +154,7 @@ ul{
 
 @font-face {
     font-family: 'Aeonik Air';
-    src: url('../fonts/Aeonik-Air.otf') format('otf');
+    src: url('../fonts/Aeonik-Air.woff') format('woff');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
@@ -699,7 +699,6 @@ color: #fff;
 @media(min-width: 990px) and  (max-width: 1500px){
     p{
         font-size: 32px;
-        /*color: yellow;*/
     }
     ul{
         font-size: 28px;
@@ -768,7 +767,6 @@ color: #fff;
 @media(min-width: 768px) and  (max-width: 990px){
     p{
         font-size: 28px;
-        /*color: red;*/
     }
     ul, .header-uni-name{
         font-size: 24px;
@@ -838,7 +836,6 @@ color: #fff;
 @media (min-width: 576px) and (max-width: 768px){
     p{
         font-size: 24px;
-        /*color: red;*/
     }
     ul, .header-uni-name{
         font-size: 20px;
@@ -914,7 +911,6 @@ color: #fff;
 @media (max-width: 576px) {
     p{
         font-size: 20px;
-        /*color: red;*/
     }
     ul, .header-uni-name{
         font-size: 16px;
@@ -1594,7 +1590,7 @@ section#resources-h .col-12.col-md-4 {
 .all-resources-link a {
     font-size: 18px;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: bold !important;
     letter-spacing: 2px;
     color: #272727;
     border: 1px solid;
@@ -5721,7 +5717,7 @@ outline: 0;
 
 .featured-courses .course-wrap .title {
     font-size: 22px;
-    font-weight: 500;
+    font-weight: bold;   /*previous FW was 500*/
     line-height: 1.21;
     letter-spacing: 0.96px;
     color: #272727;
@@ -5855,8 +5851,8 @@ outline: 0;
 }
 
 .featured-resources .course-wrap .title {
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 25px; /*previous FS was 24px*/
+    font-weight: normal; /*previous FW was 500*/
     line-height: 1.25;
     letter-spacing: 0.48px;
     color: #272727;
@@ -6185,7 +6181,7 @@ outline: 0;
 .all-resources-link.btnn-design2 a{
     border-width: 1px;
     padding: 10px 30px;
-    font-weight: 500;
+    /*font-weight: 500 !important;*/
     /* min-width: 170px; */
 }
 .rexroth-section .tab-content p {
