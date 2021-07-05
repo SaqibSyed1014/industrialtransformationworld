@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="192dc788-5431-48f2-af4f-4f545f470b5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/carousel images/ca-1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/carousel images/ca-2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/carousel images/ca-3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/carousel images/ca-4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/carousel images/ca-5.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/carousel images/ca-6.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/carousel images/ca-7.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/carousel images/ca-8.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/carousel images/ca-9.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/nus-view.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/peofessor-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/prfessor-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/header-img.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style-alternate-colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style-alternate-colors.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/professor-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Aeonik-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Aeonik-Bold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Aeonik-Light.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Aeonik-Light.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Aeonik-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Aeonik-Regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Material-Icon-Font.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Material-Icon-Font.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/header image.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +39,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/carousel images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fonts" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -58,10 +51,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Saqib Syed\Desktop\client\images\carousel images" />
-      <recent name="C:\Users\Saqib Syed\Desktop\client\images" />
-      <recent name="C:\Users\Saqib Syed\Desktop\client\images\icons and logo" />
       <recent name="C:\Users\Saqib Syed\Desktop\client\fonts" />
+      <recent name="C:\Users\Saqib Syed\Desktop\client" />
+      <recent name="C:\Users\Saqib Syed\Desktop\client\images" />
+      <recent name="C:\Users\Saqib Syed\Desktop\client\images\carousel images" />
+      <recent name="C:\Users\Saqib Syed\Desktop\client\images\icons and logo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Saqib Syed\Desktop\client\images" />
@@ -77,7 +71,7 @@
       <updated>1625320812370</updated>
       <workItem from="1625320813637" duration="2647000" />
       <workItem from="1625323490046" duration="63717000" />
-      <workItem from="1625492064735" duration="11205000" />
+      <workItem from="1625492064735" duration="23701000" />
     </task>
     <task id="LOCAL-00001" summary="made responsive">
       <created>1625390778058</created>
@@ -107,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625427876289</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="lg-responsive">
+      <created>1625503505415</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1625503505415</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +131,7 @@
     <MESSAGE value="owl-carousel" />
     <MESSAGE value="xl-screen responsive" />
     <MESSAGE value="changes updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes updates" />
+    <MESSAGE value="lg-responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="lg-responsive" />
   </component>
 </project>
