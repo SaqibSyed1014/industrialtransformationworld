@@ -5,6 +5,10 @@ h3{
     text-align: center;
     margin-bottom: 3rem;
 }
+.hero-text h2{
+    font-weight: bold;
+    font-family: inherit;
+}
 .resource-card{
     position: relative;
 }
@@ -150,7 +154,7 @@ ul{
 
 @font-face {
     font-family: 'Aeonik Air';
-    src: url('../fonts/Aeonik-Air.woff') format('woff');
+    src: url('../fonts/Aeonik-Air.otf') format('otf');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
@@ -208,7 +212,7 @@ ul{
     font-family: 'Material Icons';
     font-style: normal;
     font-weight: 400;
-    src: url(../fonts/Material-Icon-ont.woff) format('woff2');
+    src: url(../fonts/Material-Icon-Font.woff) format('woff2');
 }
 
 .material-icons {
@@ -249,7 +253,7 @@ ul{
 }
 
 body {
-    font-family: 'Aeonik';
+
     color: #272727;
 }
 
@@ -623,7 +627,75 @@ color: #fff;
     margin-bottom: 10px;
 }
 
-/*Font sizes on large screens*/
+/*Font sizes on extra-large screens*/
+@media(min-width: 1500px){
+    p{
+        font-size: 36px;
+    }
+    ul{
+        font-size: 32px;
+    }
+    table{
+        font-size: 28px;
+    }
+    .sub-heading{
+        font-size: 39px;
+        padding-top: 1rem;
+    }
+    h3{
+        font-size: 49px;
+        padding-bottom: 1.5rem;
+    }
+    h5{
+        font-size: 34px;
+    }
+    .header-uni-name{
+        font-size: 32px;
+    }
+    .icon-caption{
+        font-size: 18px;
+    }
+    .content-video-heading span, .resource-date{
+        font-size: 17px;
+    }
+    .about-uni p{
+        font-size: 26px;
+    }
+    .hours-ago{
+        font-size: 13px;
+    }
+    .card-text, .resources-subtitle{
+        font-size: 21px;
+    }
+    .professor-name{
+        font-size: 25px;
+    }
+    .uni-name{
+        font-size: 22px;
+    }
+    .small{
+        font-size: 15px;
+    }
+    .fee-discount{
+        font-size: 24px;
+    }
+    .title{
+        font-size: 29px;
+    }
+    .uni-name-subtitle p{
+        font-size: 13px;
+    }
+    .end-margin{
+        margin-bottom: 3rem;
+    }
+    .content-video-modal .content-video-heading p{
+        font-size: 45px;
+        padding-bottom: 3rem;
+    }
+    .content-video-modal .content-video-heading span{
+        font-size: 17px;
+    }
+}
 @media(min-width: 990px) and  (max-width: 1500px){
     p{
         font-size: 32px;
@@ -650,7 +722,7 @@ color: #fff;
         font-size: 28px;
     }
     .icon-caption{
-        font-size: 14px;
+        font-size: 16px;
     }
     .content-video-heading span, .resource-date{
         font-size: 13px;

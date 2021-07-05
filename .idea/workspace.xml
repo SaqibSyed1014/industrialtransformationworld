@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="192dc788-5431-48f2-af4f-4f545f470b5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/header-img.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style-alternate-colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style-alternate-colors.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Aeonik-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Aeonik-Bold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Aeonik-Light.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Aeonik-Light.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Aeonik-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Aeonik-Regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Material-Icon-Font.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Material-Icon-Font.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/header image.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +66,7 @@
       <workItem from="1625320813637" duration="2647000" />
       <workItem from="1625323490046" duration="63717000" />
       <workItem from="1625492064735" duration="23701000" />
+      <workItem from="1625521845999" duration="2140000" />
     </task>
     <task id="LOCAL-00001" summary="made responsive">
       <created>1625390778058</created>
@@ -108,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625503505415</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="made respnsive">
+      <created>1625521963282</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1625521963283</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +134,7 @@
     <MESSAGE value="xl-screen responsive" />
     <MESSAGE value="changes updates" />
     <MESSAGE value="lg-responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="lg-responsive" />
+    <MESSAGE value="made respnsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="made respnsive" />
   </component>
 </project>
