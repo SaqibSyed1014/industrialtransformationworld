@@ -91,7 +91,6 @@ section#course-section .content-video-modal .content-video:after{
     letter-spacing: 1px;
 }
 .hero-text a{
-
     font-weight: bold;
 }
 
@@ -104,10 +103,10 @@ section#course-section .content-video-modal .content-video:after{
     border: 2px solid #272727;
     color: #272727;
 }
-.buttons-row .active{
+.btns-row .active{
     background-color: #0EC99D;
-    border: 2px solid #0EC99D;
-    color: #E0EDFA;
+    border: 2px solid #0EC99D !important;
+    color: #E0EDFA !important;
 }
 section#course-section, section#application-info{
     background: #F4F4F4;
@@ -258,7 +257,7 @@ p, ul, table{
 }
 
 body {
-
+    font-family: Aeonik;
     color: #272727;
 }
 
@@ -417,6 +416,7 @@ nav.navbar.navbar-expand-xl.navbar-light.bg-light {
     color: #272727;
 }
 
+/*Header Paragraph*/
 .hero-text p {
     font-size: 25px;
     font-weight: normal;
@@ -426,6 +426,10 @@ nav.navbar.navbar-expand-xl.navbar-light.bg-light {
     margin-bottom: 40px;
     text-align: justify;
     max-width: 700px;
+}
+/*Long Text Paragraph*/
+section#course-section p{
+    font-size: 22px;
 }
 
 .hero-content {
@@ -632,13 +636,83 @@ color: #fff;
     margin-bottom: 10px;
 }
 
+
+/*My footer*/
+.footer-copy-left a, .footer-copy-right p {
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-right: 25px;
+    color: #A1A1A1;
+}
+
+
+
+@media(min-width: 1200px) {
+    .section-title h2 {
+        font-size: 55px;
+    }
+    .professor-title{
+        font-size: 14px !important;
+    }
+}
+@media (max-width: 1200px){
+    .section-title h2 {
+        font-size: 45px;
+        line-height: 70px;
+        margin-top: 10px;
+    }
+    .professor-title{
+        font-size: 12px !important;
+    }
+}
+@media (max-width: 991px){
+    .hero-text p {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+}
+@media (max-width: 575.98px){
+    .section-title h2 {
+        font-size: 35px;
+        line-height: 45px;
+        margin-top: 20px;
+        letter-spacing: 1px;
+    }
+}
+@media (max-width: 450px){
+    .section-title h2 {
+        font-size: 28px!important;
+    }
+    section#footer .footer-menu ul li a, section#footer .contact-us a {
+        font-size: 16px !important;
+    }
+    .section-title h5 {
+        font-size: 13px !important;
+        padding: 11px 25px !important;
+        line-height: 25px !important;
+    }
+    .section-title h2 {
+        font-size: 28px!important;
+    }
+}
+
+
+
+
 /*Queries for extra-large screens*/
 @media(min-width: 1500px){
-    .hero-text h2 {
-        font-size: 53px;
+    section#course-section p,section#application-info p, ul, table{
+        font-size: 22px !important;
+        line-height: 1.42;
+    }
+    .hero-text h1 {
+        font-size: 42px;
     }
     p, ul, table{
-        font-size: 29px;
+        /*font-size: 29px;*/
     }
     .sub-heading{
         font-size: 28px;
@@ -655,9 +729,6 @@ color: #fff;
     }
     .icon-caption{
         font-size: 18px;
-    }
-    .section-title h2 {
-        font-size: 55px !important;
     }
     .content-video-heading span, .resource-date{
         font-size: 17px;
@@ -700,13 +771,14 @@ color: #fff;
 /*Queries for large screens*/
 @media(min-width: 990px) and  (max-width: 1500px){
     section#course-section p,section#application-info p, ul, table{
-        font-size: 18px !important;
+        font-size: 22px !important;
+        line-height: 1.42;
     }
     .hero-text p {
         text-align: justify;
     }
     p, ul, table{
-        font-size: 25px;
+        /*font-size: 25px;*/
     }
     .sub-heading{
         font-size: 24px;
@@ -718,11 +790,7 @@ color: #fff;
     h5{
         font-size: 30px;
     }
-    .section-title h2 {
-        font-size: 45px !important;
-        line-height: 70px;
-        margin-top: 10px;
-    }
+
     .header-uni-name{
         font-size: 28px;
     }
@@ -748,7 +816,7 @@ color: #fff;
         font-size: 18px;
     }
     .small{
-        font-size: 11px;
+        font-size: 11px !important;
     }
     .fee-discount{
         font-size: 20px;
@@ -764,22 +832,28 @@ color: #fff;
     }
     .content-video-modal .content-video-heading h2{
         font-size: 30px;
+        padding-bottom: 1.3rem;
     }
 }
+
+@media (max-width: 1199.98px){
+    .footer-copyright-left a, .footer-copyright-right p {
+        font-size: 15px !important;
+        margin-right: 25px !important;
+    }
+}
+
 /*Queries for Medium screens*/
 @media(min-width: 768px) and  (max-width: 990px){
-    .hero-text h2 {
-        font-size: 42px;
+    .card-below-space{
+        padding-bottom: 45px;
+    }
+    .hero-text h1 {
+        font-size: 30px;
         text-align: center;
     }
-    .hero-text p {
-        font-size: 18px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        text-align: justify;
-    }
     p, ul, table{
-        font-size: 21px;
+        /*font-size: 21px;*/
     }
     .header-uni-name{
         font-size: 24px;
@@ -788,7 +862,7 @@ color: #fff;
         padding-top: 1rem;
     }
     section#course-section p, section#application-info p, ul, table{
-        font-size: 16px !important;
+        font-size: 18px !important;
     }
     h3{
         padding-bottom: 1.5rem;
@@ -834,6 +908,7 @@ color: #fff;
     }
     .content-video-modal .content-video-heading h2{
         font-size: 28px;
+        padding-bottom: 1rem;
     }
     .hero-right-video img, section#course-section .content-video img{
         border-radius: 13px;
@@ -845,21 +920,18 @@ color: #fff;
 }
 /*Queries for Small Screens*/
 @media (min-width: 576px) and (max-width: 768px){
+    .card-below-space{
+        padding-bottom: 45px;
+    }
     .hero-text h1 {
         font-size: 30px;
         text-align: center;
-    }
-    .hero-text p {
-        font-size: 18px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        text-align: justify;
     }
     .sub-heading{
         font-size: 28px !important;
     }
     p, ul, table{
-        font-size: 17px;
+        font-size: 15px;
     }
     .header-uni-name {
         font-size: 20px;
@@ -868,7 +940,7 @@ color: #fff;
         padding-top: 1rem;
     }
     section#course-section p,section#application-info p, ul, table{
-        font-size: 16px !important;
+        font-size: 18px !important;
     }
     h3{
         padding-bottom: 1.5rem;
@@ -878,9 +950,6 @@ color: #fff;
     }
     .content-video-heading span, .resource-date{
         font-size: 13px; /*not change*/
-    }
-    .section-title h2 {
-        font-size: 40px !important;
     }
     .content-video .video-play-btn{
         font-size: 40px;
@@ -918,6 +987,7 @@ color: #fff;
     }
     .content-video-modal .content-video-heading h2{
         font-size: 20px;
+        padding-bottom: 1rem;
     }
     .content-video-modal .content-video-heading span{
         font-size: 10px;
@@ -932,9 +1002,11 @@ color: #fff;
 }
 /*Queries for Extra Small Screens*/
 @media (min-width: 320px) and (max-width: 576px) {
-    .hero-text h2 {
-        font-size: 30px;
-        text-align: center;
+    section#course-section p,  section#application-info p, ul, table{
+        font-size: 18px !important;
+    }
+    .card-below-space{
+        padding-bottom: 45px;
     }
     .hero-text p {
         font-size: 18px;
@@ -945,14 +1017,8 @@ color: #fff;
     .featured-courses .course-wrap .title a, .featured-resources .course-wrap .title a {
         font-size: 18px;
     }
-    .section-title h2 {
-        font-size: 35px !important;
-        line-height: 45px;
-        margin-top: 20px;
-        letter-spacing: 1px;
-    }
     p, ul, table{
-        font-size: 15px;
+        /*font-size: 15px;*/
     }
     section#course-section,section#application-info p, ul, table{
         font-size: 16px !important;
@@ -1022,9 +1088,6 @@ color: #fff;
 }
 
 @media (max-width: 320px) {
-    p, ul, table{
-        font-size: 14px;
-    }
     .header-uni-name{
         font-size: 16px;
     }
@@ -1042,7 +1105,7 @@ color: #fff;
         font-size: 18px;
     }
     section#course-section p,section#application-info p, ul, table{
-        font-size: 16px !important;
+        font-size: 18px !important;
     }
     .card-text, .resources-subtitle{
         font-size: 14px;
@@ -1153,7 +1216,7 @@ section#categories {
 
 .section-title h2 {
     text-transform: uppercase;
-    font-size: 55px;
+    /*font-size: 55px;*/
     font-weight: bold;
     letter-spacing: -1px;
     line-height: 70px;
@@ -1799,13 +1862,29 @@ section#footer h5 {
 
 .footer-subscriber form input {
     padding: 12px 20px;
-    width: 100%;
+    width: 350px;
     border-radius: 6px;
     border: none;
     color: #7D7D7D;
     font-size: 18px;
     font-weight: normal;
     letter-spacing: 1px;
+}
+@media (max-width: 1199.98px){
+    .footer-subscriber form input {
+        padding: 10px 20px;
+        width: 80%;
+        border-radius: 6px;
+        font-size: 16px;
+    }
+}
+@media (max-width: 767.98px){
+    .footer-subscriber form input {
+        padding: 10px 20px;
+        width: 100%;
+        border-radius: 6px;
+        font-size: 16px;
+    }
 }
 
 .footer-subscriber form input::placeholder {
@@ -5410,6 +5489,7 @@ section#footer .footer-menu ul li a,
     }
 }
 
+/*Footer Section css*/
 section#footer .footer-menu ul li {
     margin: 0px;
 }
@@ -5432,6 +5512,18 @@ color: #fff;
 section#footer h5 {
     font-weight: normal;
     font-size: 25px;
+}
+@media (max-width: 767.98px){
+    section#footer h5 {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 1199.98px){
+   section#footer h5 {
+       font-size: 18px;
+       margin-bottom: 30px;
+    }
 }
 
 section#footer .footer-info p {
@@ -5484,6 +5576,7 @@ section#footer .footer-info p {
     margin: 30px 0 0;
 }
 
+/*Footer copyright section css*/
 .footer-copyright {
     border-top: 1px solid #525252;
     padding-top: 15px;
@@ -5491,6 +5584,7 @@ section#footer .footer-info p {
     justify-content: space-between;
     margin-top: 65px;
 }
+
 
 .footer-copyright-left a,
 .footer-copyright-right p {
@@ -5500,13 +5594,35 @@ section#footer .footer-info p {
     margin-right: 25px;
     color: #A1A1A1;
 }
-
+@media (max-width: 1199.98px){
+    .footer-copyright-left a, .footer-copyright-right p {
+        font-size: 15px;
+        margin-right: 25px;
+    }
+}
 @media (max-width: 768px) {
     /* section#footer .footer-menu ul {
         column-count: 1;
     } */
     section#footer .footer-menu ul li {
         margin-bottom: 10px;
+    }
+}
+@media (max-width: 767.98px){
+    .footer-copyright {
+        border-top: 1px solid #525252;
+        padding-top: 15px;
+        display: block;
+        justify-content: space-between;
+        margin-top: 100px;
+        text-align: center;
+    }
+}
+@media (max-width: 350px){
+    .footer-copyright-left a {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 6px;
     }
 }
 
@@ -6282,7 +6398,7 @@ outline: 0;
 .all-resources-link.btnn-design2 a{
     border-width: 1px;
     padding: 10px 30px;
-    /*font-weight: 500 !important;*/
+    font-weight: 500;
     /* min-width: 170px; */
 }
 .rexroth-section .tab-content p {
