@@ -94,7 +94,6 @@ section#course-section .content-video-modal .content-video:after{
     border-radius: 25px;
     width: 100%;
     font-size: 15px;
-    /*padding: 10px 30px;*/
     text-align: center;
     background-color: transparent;
     border: 2px solid #272727;
@@ -885,7 +884,7 @@ color: #fff;
         margin-bottom: 3rem;
     }
     .buttons-row .dark-btn{
-        width: 65%;
+        width: 85%;
     }
     .content-video-modal .content-video-heading p{
         font-size: 20px;
@@ -954,8 +953,8 @@ color: #fff;
         margin-bottom: 3rem;
     }
     .buttons-row .dark-btn{
-        font-size: 13px;
-        width: 85%;
+        font-size: 12px;
+        width: 100%;
     }
     .content-video .video-play-btn{
         font-size: 30px;
