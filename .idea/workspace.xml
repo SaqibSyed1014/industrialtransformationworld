@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="192dc788-5431-48f2-af4f-4f545f470b5d" name="Default Changelist" comment="btns updated">
+    <list default="true" id="192dc788-5431-48f2-af4f-4f545f470b5d" name="Default Changelist" comment="updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style-alternate-colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style-alternate-colors.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -66,7 +66,7 @@
       <workItem from="1625320813637" duration="2647000" />
       <workItem from="1625323490046" duration="63717000" />
       <workItem from="1625492064735" duration="23701000" />
-      <workItem from="1625521845999" duration="28526000" />
+      <workItem from="1625521845999" duration="32596000" />
     </task>
     <task id="LOCAL-00001" summary="made responsive">
       <created>1625390778058</created>
@@ -229,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625559733770</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="updated">
+      <created>1625575750082</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1625575750082</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,13 +261,13 @@
     <MESSAGE value="changes updates" />
     <MESSAGE value="lg-responsive" />
     <MESSAGE value="made respnsive" />
-    <MESSAGE value="updated" />
     <MESSAGE value="updated." />
     <MESSAGE value="updated struucture img &amp; carousels" />
     <MESSAGE value="updated btns" />
     <MESSAGE value="font updated" />
     <MESSAGE value="icon updted" />
     <MESSAGE value="btns updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="btns updated" />
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
 </project>
