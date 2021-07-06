@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="192dc788-5431-48f2-af4f-4f545f470b5d" name="Default Changelist" comment="updated btns">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="192dc788-5431-48f2-af4f-4f545f470b5d" name="Default Changelist" comment="updated btns" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +62,7 @@
       <workItem from="1625320813637" duration="2647000" />
       <workItem from="1625323490046" duration="63717000" />
       <workItem from="1625492064735" duration="23701000" />
-      <workItem from="1625521845999" duration="14095000" />
+      <workItem from="1625521845999" duration="14398000" />
     </task>
     <task id="LOCAL-00001" summary="made responsive">
       <created>1625390778058</created>
@@ -178,7 +176,21 @@
       <option name="project" value="LOCAL" />
       <updated>1625558038125</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="updated btns">
+      <created>1625558185321</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1625558185321</updated>
+    </task>
+    <task id="LOCAL-00018" summary="updated btns">
+      <created>1625558375402</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1625558375402</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

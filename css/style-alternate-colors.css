@@ -865,9 +865,6 @@ color: #fff;
     .professor-name{
         font-size: 18px;
     }
-    /*.uni-name{*/
-    /*    font-size: 10px;*/
-    /*}*/
     .fee-discount{
         font-size: 14px;
     }
@@ -885,7 +882,7 @@ color: #fff;
     }
     .buttons-row .dark-btn{
         width: 85%;
-        font-size: 7px;
+        font-size: 13px;
     }
     .content-video-modal .content-video-heading p{
         font-size: 20px;
