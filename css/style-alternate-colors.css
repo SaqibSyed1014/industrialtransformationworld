@@ -81,7 +81,7 @@ section#course-section .content-video-modal .content-video:after{
     font-weight: normal;
     display: inline-block;
 }
-.content-video-heading p{
+.content-video-heading h2{
     font-weight: bold;
     color: #fff;
     letter-spacing: 1px;
@@ -90,6 +90,7 @@ section#course-section .content-video-modal .content-video:after{
 
     font-weight: bold;
 }
+
 .buttons-row .dark-btn{
     border-radius: 25px;
     width: 100%;
@@ -182,7 +183,7 @@ ul{
     font-display: swap;
 }
 p, ul, table{
-    font-weight: 500;
+    /*font-weight: 500;*/
 }
 @font-face {
     font-family: 'Aeonik';
@@ -629,14 +630,8 @@ color: #fff;
 
 /*Queries for extra-large screens*/
 @media(min-width: 1500px){
-    p{
-        font-size: 36px;
-    }
-    ul{
-        font-size: 32px;
-    }
-    table{
-        font-size: 28px;
+    p, ul, table{
+        font-size: 29px;
     }
     .sub-heading{
         font-size: 39px;
@@ -665,7 +660,7 @@ color: #fff;
         font-size: 13px;
     }
     .card-text, .resources-subtitle{
-        font-size: 21px;
+        font-size: 15px;
     }
     .professor-name{
         font-size: 25px;
@@ -688,21 +683,15 @@ color: #fff;
     .end-margin{
         margin-bottom: 3rem;
     }
-    .content-video-modal .content-video-heading p{
-        font-size: 45px;
+    .content-video-modal .content-video-heading h2{
+        font-size: 36px;
         padding-bottom: 3rem;
     }
 }
 /*Queries for large screens*/
 @media(min-width: 990px) and  (max-width: 1500px){
-    p{
-        font-size: 32px;
-    }
-    ul{
-        font-size: 28px;
-    }
-    table{
-        font-size: 24px;
+    p, ul, table{
+        font-size: 25px;
     }
     .sub-heading{
         font-size: 35px;
@@ -755,19 +744,16 @@ color: #fff;
         margin-bottom: 3rem;
     }
     .content-video-modal .content-video-heading h2{
-        font-size: 32px;
+        font-size: 30px;
     }
 }
 /*Queries for Medium screens*/
 @media(min-width: 768px) and  (max-width: 990px){
-    p{
-        font-size: 28px;
+    p, ul, table{
+        font-size: 21px;
     }
-    ul, .header-uni-name{
+    .header-uni-name{
         font-size: 24px;
-    }
-    table{
-        font-size: 22px;
     }
     .sub-heading{
         font-size: 31px;
@@ -829,14 +815,11 @@ color: #fff;
 }
 /*Queries for Small Screens*/
 @media (min-width: 576px) and (max-width: 768px){
-    p{
-        font-size: 24px;
+    p, ul, table{
+        font-size: 17px;
     }
-    ul, .header-uni-name{
+    .header-uni-name {
         font-size: 20px;
-    }
-    table{
-        font-size: 18px;
     }
     .sub-heading{
         font-size: 27px;
@@ -886,7 +869,7 @@ color: #fff;
         width: 85%;
         font-size: 15px;
     }
-    .content-video-modal .content-video-heading p{
+    .content-video-modal .content-video-heading h2{
         font-size: 20px;
     }
     .content-video-modal .content-video-heading span{
@@ -902,13 +885,14 @@ color: #fff;
 }
 /*Queries for Extra Small Screens*/
 @media (min-width: 320px) and (max-width: 576px) {
-    p{
-        font-size: 20px;
+    .featured-courses .course-wrap .title a, .featured-resources .course-wrap .title a {
+        font-size: 18px;
     }
-    ul, .header-uni-name{
-        font-size: 16px;
+
+    p, ul, table{
+        font-size: 15px;
     }
-    table{
+    .header-uni-name{
         font-size: 16px;
     }
     .sub-heading{
@@ -962,8 +946,8 @@ color: #fff;
     .content-video-heading span{
         font-size: 8px;
     }
-    .content-video-modal .content-video-heading p{
-        font-size: 10px;
+    .content-video-modal .content-video-heading h2{
+        font-size: 16px;
     }
     .hero-right-video img, section#course-section .content-video img{
         border-radius: 9px;
@@ -974,13 +958,10 @@ color: #fff;
 }
 
 @media (max-width: 320px) {
-    p{
-        font-size: 20px;
+    p, ul, table{
+        font-size: 14px;
     }
-    ul, .header-uni-name{
-        font-size: 16px;
-    }
-    table{
+    .header-uni-name{
         font-size: 16px;
     }
     .sub-heading{
@@ -1034,8 +1015,8 @@ color: #fff;
     .content-video-heading span{
         font-size: 8px;
     }
-    .content-video-modal .content-video-heading p{
-        font-size: 10px;
+    .content-video-modal .content-video-heading h2{
+        font-size: 13px;
     }
     .hero-right-video img, section#course-section .content-video img{
         border-radius: 9px;
@@ -1608,7 +1589,7 @@ section#resources-h {
 .resources-h-item-overlay span {
     color: #F4F4F4;
     font-weight: normal;
-    font-size: 10px;
+    /*font-size: 10px;*/
     margin-right: 10px;
     letter-spacing: 1px;
 }
@@ -5752,7 +5733,7 @@ outline: 0;
     line-height: 1.2;
     color: #0ec99d;
     text-transform: uppercase;
-    font-size: 9px;
+    font-size: 14px;
     margin-bottom: 0px;
     display: flex;
     align-items: center;
@@ -5761,7 +5742,7 @@ outline: 0;
 .featured-courses .course-wrap .content-inner .date-time {
     flex: 0 0 140px;
     text-align: right;
-    font-size: 9px;
+    font-size: 14px;
     text-transform: uppercase;
     display: flex;
     align-items: center;
@@ -5772,15 +5753,13 @@ outline: 0;
 }
 
 .featured-courses .course-wrap .title {
-    font-size: 22px;
-    font-weight: bold;   /*previous FW was 500*/
+    font-size: 24px;
+    font-weight: 500;
     line-height: 1.21;
     letter-spacing: 0.96px;
-    color: #272727;
     margin-bottom: 30px;
 }
-
-.featured-courses .course-wrap .title a {
+.featured-courses .course-wrap .title a, .featured-resources .course-wrap .title a{
     color: #272727;
 }
 
@@ -5790,7 +5769,7 @@ outline: 0;
     background-color: #0ec99d;
     color: #fff;
     padding: 12px 25px;
-    font-size: 10px;
+    font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 1.6px;
     font-weight: 500;
@@ -5907,17 +5886,14 @@ outline: 0;
 }
 
 .featured-resources .course-wrap .title {
-    font-size: 25px; /*previous FS was 24px*/
-    font-weight: normal; /*previous FW was 500*/
+    font-size: 24px; /*previous FS was 24px*/
+    font-weight: 500; /*previous FW was 500*/
     line-height: 1.25;
     letter-spacing: 0.48px;
     color: #272727;
     margin-bottom: 15px;
 }
 
-.featured-resources .course-wrap .title a {
-    color: #272727;
-}
 
 .featured-resources .course-wrap .subtitle {
     margin-bottom: 15px;
