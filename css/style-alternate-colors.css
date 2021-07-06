@@ -905,7 +905,6 @@ color: #fff;
 @media (max-width: 576px) {
     p{
         font-size: 20px;
-        color: red;
     }
     ul, .header-uni-name{
         font-size: 16px;
