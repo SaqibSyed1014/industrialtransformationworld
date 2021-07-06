@@ -181,7 +181,9 @@ ul{
     font-style: normal;
     font-display: swap;
 }
-
+p, ul, table{
+    font-weight: 500;
+}
 @font-face {
     font-family: 'Aeonik';
     src: url('../fonts/Aeonik-Medium.woff') format('woff');
