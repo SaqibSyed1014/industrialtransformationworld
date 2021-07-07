@@ -1,159 +1,3 @@
-h3{
-    font-size: 32px;
-    font-weight: bolder;
-}
-.icon{
-    text-align: center;
-    margin-bottom: 3rem;
-}
-.hero-text h2{
-    font-size: 42px;
-    line-height: 1.2;
-    letter-spacing: 0px;
-    font-weight: bold;
-    font-family: inherit;
-}
-.resource-card{
-    position: relative;
-}
-.resource-date{
-    position: absolute;
-    bottom: 0;
-    right: 30px;
-    padding-top: 52px;
-}
-.uni-name{
-    color: #0EC99D;
-}
-.course-button{
-    background: #0EC99D;
-    border-radius: 4px;
-    padding: 9px 30px;
-    border: none;
-    color: #F4F4F4;
-    margin: 1.6rem 0;
-}
-section#news-updates, #featured-courses{
-    padding: 50px 0;
-}
-section#course-section .content-video-modal .video-play-btn-wrapper{
-    position: absolute;
-    left: 5%;
-    top: 5%;
-    z-index: 1;
-    padding: 0;
-    text-align: center;
-    /*line-height: 60px;*/
-    color: #ffff;
-    display: inline-block;
-}
-.video-play-btn{
-    font-size: 65px;
-}
-section#course-section .content-video{
-    position: relative;
-}
-section#course-section .content-video img{
-    position: relative;
-    border-radius: 15px;
-    width: 100%;
-}
-section#course-section .content-video-modal{
-    margin: 3% 0;
-}
-section#course-section .content-video-modal .content-video:after{
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: #27272773;
-    border-radius: 15px;
-}
-.content-video-heading{
-    position: absolute;
-    bottom: 0;
-    z-index: 1;
-    width: 90%;
-    left: 50%;
-    transform: translate(-50%, -15px);
-}
-.content-video-heading span{
-    color: #fff;
-    font-size: 15px;
-    font-weight: normal;
-    display: inline-block;
-}
-.content-video-heading h2{
-    font-weight: bold;
-    color: #fff;
-    letter-spacing: 1px;
-}
-.hero-text a{
-    font-weight: bold;
-}
-
-.buttons-row .dark-btn{
-    border-radius: 25px;
-    width: 100%;
-    font-size: 15px;
-    text-align: center;
-    background-color: transparent;
-    border: 2px solid #272727;
-    color: #272727;
-}
-.btns-row .active{
-    background-color: #0EC99D;
-    border: 2px solid #0EC99D !important;
-    color: #E0EDFA !important;
-}
-section#course-section, section#application-info{
-    background: #F4F4F4;
-    padding: 50px 0;
-}
-.custom-container{
-    margin: 0 15%;
-    background: transparent;
-}
-section#programme-structure{
-    padding: 50px 0;
-}
-section#application-info .apply-date .date-info div{
-    padding-bottom: 10px;
-}
-
-section#application-info .professors .img-wrapper img{
-    border-radius: 20px;
-    box-shadow: 0 3px 8px rgba(0,0,0, 0.1);
-}
-.img-wrapper{
-    margin-bottom: 22px;
-}
-section#application-info .professors p{
-    margin: 0;
-}
-
-.green-text{
-    color: #0EC99D;
-}
-ul{
-    padding-left: 17px;
-}
-.uni-footer .break-line{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.uni-footer .line{
-    width: 100%;
-    height: 1px;
-    background-color: #272727;
-}
-
-
-
-/*Previous css*/
 @font-face {
     font-family: 'Aeonik Air';
     src: url('../fonts/Aeonik-Air.woff') format('woff');
@@ -560,8 +404,6 @@ color: #fff;
 
 
 
-
-
 .hero-image-over-news span {
     color: #fff;
     font-size: 15px;
@@ -649,19 +491,19 @@ color: #fff;
 
 
 @media(min-width: 1200px) {
-    .section-title h2 {
-        font-size: 55px;
-    }
+    /*.section-title h2 {*/
+    /*    font-size: 55px;*/
+    /*}*/
     .professor-title{
         font-size: 14px !important;
     }
 }
 @media (max-width: 1200px){
-    .section-title h2 {
-        font-size: 45px;
-        line-height: 70px;
-        margin-top: 10px;
-    }
+    /*.section-title h2 {*/
+    /*    font-size: 45px;*/
+    /*    line-height: 70px;*/
+    /*    margin-top: 10px;*/
+    /*}*/
     .professor-title{
         font-size: 12px !important;
     }
@@ -675,17 +517,17 @@ color: #fff;
     }
 }
 @media (max-width: 575.98px){
-    .section-title h2 {
-        font-size: 35px;
-        line-height: 45px;
-        margin-top: 20px;
-        letter-spacing: 1px;
-    }
+    /*.section-title h2 {*/
+    /*    font-size: 35px;*/
+    /*    line-height: 45px;*/
+    /*    margin-top: 20px;*/
+    /*    letter-spacing: 1px;*/
+    /*}*/
 }
 @media (max-width: 450px){
-    .section-title h2 {
-        font-size: 28px!important;
-    }
+    /*.section-title h2 {*/
+    /*    font-size: 28px!important;*/
+    /*}*/
     section#footer .footer-menu ul li a, section#footer .contact-us a {
         font-size: 16px !important;
     }
@@ -694,488 +536,23 @@ color: #fff;
         padding: 11px 25px !important;
         line-height: 25px !important;
     }
-    .section-title h2 {
-        font-size: 28px!important;
-    }
+    /*.section-title h2 {*/
+    /*    font-size: 28px!important;*/
+    /*}*/
 }
 
 
 
 
-/*Queries for extra-large screens*/
-@media(min-width: 1500px){
-    section#course-section p,section#application-info p, ul, table{
-        font-size: 22px !important;
-        line-height: 1.42;
-    }
-    .hero-text h1 {
-        font-size: 42px;
-    }
-    p, ul, table{
-        /*font-size: 29px;*/
-    }
-    .sub-heading{
-        font-size: 28px;
-        padding-top: 1rem;
-    }
-    h3{
-        padding-bottom: 1.5rem;
-    }
-    h5{
-        font-size: 34px;
-    }
-    .header-uni-name{
-        font-size: 32px;
-    }
-    .icon-caption{
-        font-size: 18px;
-    }
-    .content-video-heading span, .resource-date{
-        font-size: 17px;
-    }
-    .about-uni p{
-        font-size: 26px;
-    }
-    .hours-ago{
-        font-size: 13px;
-    }
-    .card-text, .resources-subtitle{
-        font-size: 15px;
-    }
-    .professor-name{
-        font-size: 25px;
-    }
-    .uni-name{
-        font-size: 22px;
-    }
-    .small{
-        font-size: 15px;
-    }
-    .fee-discount{
-        font-size: 24px;
-    }
-    .title{
-        font-size: 29px;
-    }
-    .uni-name-subtitle p{
-        font-size: 13px;
-    }
-    .end-margin{
-        margin-bottom: 3rem;
-    }
-    .content-video-modal .content-video-heading h2{
-        font-size: 36px;
-        padding-bottom: 3rem;
-    }
-}
-/*Queries for large screens*/
-@media(min-width: 990px) and  (max-width: 1500px){
-    section#course-section p,section#application-info p, ul, table{
-        font-size: 22px !important;
-        line-height: 1.42;
-    }
-    .hero-text p {
-        text-align: justify;
-    }
-    p, ul, table{
-        /*font-size: 25px;*/
-    }
-    .sub-heading{
-        font-size: 24px;
-        padding-top: 1rem;
-    }
-    h3{
-        padding-bottom: 1.5rem;
-    }
-    h5{
-        font-size: 30px;
-    }
-
-    .header-uni-name{
-        font-size: 28px;
-    }
-    .icon-caption{
-        font-size: 16px;
-    }
-    .content-video-heading span, .resource-date{
-        font-size: 15px;
-    }
-    .about-uni p{
-        font-size: 22px;
-    }
-    .hours-ago{
-        font-size: 9px;
-    }
-    .card-text, .resources-subtitle{
-        font-size: 17px;
-    }
-    .professor-name{
-        font-size: 21px;
-    }
-    .uni-name{
-        font-size: 18px;
-    }
-    .small{
-        font-size: 11px !important;
-    }
-    .fee-discount{
-        font-size: 20px;
-    }
-    .title{
-        font-size: 25px;
-    }
-    .uni-name-subtitle p{
-        font-size: 9px;
-    }
-    .end-margin{
-        margin-bottom: 3rem;
-    }
-    .content-video-modal .content-video-heading h2{
-        font-size: 30px;
-        padding-bottom: 1.3rem;
-    }
-}
-
-@media (max-width: 1199.98px){
-    .footer-copyright-left a, .footer-copyright-right p {
-        font-size: 15px !important;
-        margin-right: 25px !important;
-    }
-}
-
-/*Queries for Medium screens*/
-@media(min-width: 768px) and  (max-width: 990px){
-    .card-below-space{
-        padding-bottom: 45px;
-    }
-    .hero-text h1 {
-        font-size: 30px;
-        text-align: center;
-    }
-    p, ul, table{
-        /*font-size: 21px;*/
-    }
-    .header-uni-name{
-        font-size: 24px;
-    }
-    .sub-heading{
-        padding-top: 1rem;
-    }
-    section#course-section p, section#application-info p, ul, table{
-        font-size: 18px !important;
-    }
-    h3{
-        padding-bottom: 1.5rem;
-    }
-    h5{
-        font-size: 26px;
-    }
-    .content-video .video-play-btn{
-        font-size: 50px;
-    }
-    .content-video-heading span, .resource-date{
-        font-size: 13px; /*not change*/
-    }
-    .about-uni p{
-        font-size: 18px;
-    }
-    .hours-ago{
-        font-size: 5px;
-    }
-    .uni-name{
-        font-size: 16px;
-    }
-    .professor-name{
-        font-size: 18px;
-    }
-    .fee-discount{
-        font-size: 17px;
-    }
-    .title{
-        font-size: 21px;
-    }
-    .uni-name-subtitle p{
-        font-size: 5px;
-    }
-    .end-margin{
-        margin-bottom: 3rem;
-    }
-    .card-text, .resources-subtitle{
-        font-size: 17px;
-    }
-    .buttons-row .dark-btn{
-        width: 85%;
-    }
-    .content-video-modal .content-video-heading h2{
-        font-size: 28px;
-        padding-bottom: 1rem;
-    }
-    .hero-right-video img, section#course-section .content-video img{
-        border-radius: 13px;
-    }
-    .featured-courses .course-wrap .image>img{
-        border-radius: 13px 13px 0 0;
-        /*height: 393px;*/
-    }
-}
-/*Queries for Small Screens*/
-@media (min-width: 576px) and (max-width: 768px){
-    .card-below-space{
-        padding-bottom: 45px;
-    }
-    .hero-text h1 {
-        font-size: 30px;
-        text-align: center;
-    }
-    .sub-heading{
-        font-size: 28px !important;
-    }
-    p, ul, table{
-        font-size: 15px;
-    }
-    .header-uni-name {
-        font-size: 20px;
-    }
-    .sub-heading{
-        padding-top: 1rem;
-    }
-    section#course-section p,section#application-info p, ul, table{
-        font-size: 18px !important;
-    }
-    h3{
-        padding-bottom: 1.5rem;
-    }
-    h5{
-        font-size: 22px;
-    }
-    .content-video-heading span, .resource-date{
-        font-size: 13px; /*not change*/
-    }
-    .content-video .video-play-btn{
-        font-size: 40px;
-    }
-    .about-uni p{
-        font-size: 16px;
-    }
-    .hours-ago{
-        font-size: 3px;
-    }
-    .uni-name{
-        font-size: 15px;
-    }
-    .professor-name{
-        font-size: 18px;
-    }
-    .fee-discount{
-        font-size: 14px;
-    }
-    .card-text, .resources-subtitle{
-        font-size: 14px;
-    }
-    .title{
-        font-size: 17px;
-    }
-    .uni-name-subtitle p{
-        font-size: 3px;
-    }
-    .end-margin{
-        margin-bottom: 3rem;
-    }
-    .buttons-row .dark-btn{
-        width: 85%;
-        font-size: 15px;
-    }
-    .content-video-modal .content-video-heading h2{
-        font-size: 20px;
-        padding-bottom: 1rem;
-    }
-    .content-video-modal .content-video-heading span{
-        font-size: 10px;
-    }
-    .hero-right-video img, section#course-section .content-video img{
-        border-radius: 11px;
-    }
-    .featured-courses .course-wrap .image>img{
-        border-radius: 11px 11px 0 0;
-        /*height: 293px;*/
-    }
-}
-/*Queries for Extra Small Screens*/
-@media (min-width: 320px) and (max-width: 576px) {
-    section#course-section p,  section#application-info p, ul, table{
-        font-size: 18px !important;
-    }
-    .card-below-space{
-        padding-bottom: 45px;
-    }
-    .hero-text p {
-        font-size: 18px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        text-align: justify;
-    }
-    .featured-courses .course-wrap .title a, .featured-resources .course-wrap .title a {
-        font-size: 18px;
-    }
-    p, ul, table{
-        /*font-size: 15px;*/
-    }
-    section#course-section,section#application-info p, ul, table{
-        font-size: 16px !important;
-    }
-    .header-uni-name{
-        font-size: 16px;
-    }
-    .sub-heading{
-        font-size: 28px !important;
-        padding-top: 1rem;
-    }
-    h3{
-        padding-bottom: 1.5rem;
-    }
-    h5{
-        font-size: 18px;
-    }
-    .card-text, .resources-subtitle{
-        font-size: 14px;
-    }
-    .uni-name{
-        font-size: 15px;
-    }
-    .content-video-heading span, .resource-date{
-        font-size: 8px;
-    }
-    .hours-ago{
-        font-size: 3px;
-    }
-    .about-uni p{
-        font-size: 14px;
-    }
-    .professor-name{
-        font-size: 18px;
-    }
-    .fee-discount{
-        font-size: 11px;
-    }
-    .title{
-        font-size: 13px;
-    }
-    .uni-name-subtitle p{
-        font-size: 3px;
-    }
-    .end-margin{
-        margin-bottom: 3rem;
-    }
-    .buttons-row .dark-btn{
-        font-size: 15px;
-        width: 100%;
-    }
-    .content-video .video-play-btn{
-        font-size: 30px;
-    }
-    .content-video-heading span{
-        font-size: 8px;
-    }
-    .content-video-modal .content-video-heading h2{
-        font-size: 16px;
-    }
-    .hero-right-video img, section#course-section .content-video img{
-        border-radius: 9px;
-    }
-    .featured-courses .course-wrap .image>img{
-        border-radius: 9px 9px 0 0;
-    }
-}
-
-@media (max-width: 320px) {
-    .header-uni-name{
-        font-size: 16px;
-    }
-    .sub-heading{
-        padding-top: 1rem;
-    }
-    .sub-heading {
-        font-size: 20px !important;
-    }
-    h3{
-        font-size: 24px !important;
-        padding-bottom: 1.5rem;
-    }
-    h5{
-        font-size: 18px;
-    }
-    section#course-section p,section#application-info p, ul, table{
-        font-size: 18px !important;
-    }
-    .card-text, .resources-subtitle{
-        font-size: 14px;
-    }
-    .uni-name{
-        font-size: 15px;
-    }
-    .content-video-heading span, .resource-date{
-        font-size: 8px;
-    }
-    .hours-ago{
-        font-size: 3px;
-    }
-    .about-uni p{
-        font-size: 14px;
-    }
-    .professor-name{
-        font-size: 18px;
-    }
-    .fee-discount{
-        font-size: 11px;
-    }
-    .title{
-        font-size: 13px;
-    }
-    .uni-name-subtitle p{
-        font-size: 3px;
-    }
-    .end-margin{
-        margin-bottom: 3rem;
-    }
-    .buttons-row .dark-btn{
-        font-size: 15px;
-        width: 100%;
-    }
-    .content-video .video-play-btn{
-        font-size: 30px;
-    }
-    .content-video-heading span{
-        font-size: 8px;
-    }
-    .content-video-modal .content-video-heading h2{
-        font-size: 13px;
-    }
-    .hero-right-video img, section#course-section .content-video img{
-        border-radius: 9px;
-    }
-    .featured-courses .course-wrap .image>img{
-        border-radius: 9px 9px 0 0;
-    }
-}
 
 
 
 @media(min-width:2000px){
-    .hero-image-over-news h2{
-        font-size: 3rem;
-    }
-    .hero-image-over-news span{
-        font-size: 1.5rem;
-    }
-    section#featured-experts{
-
-    }
     .hero-content .info-box .info-box-content .expert-designation p {
         font-size: 18px;
     }
-
-
 }
+
 .hero-content .info-box .info-box-content .expert-company p {
     font-size: 18px;
     color: rgba(0, 0, 0, 0.7);
@@ -1216,7 +593,7 @@ section#categories {
 
 .section-title h2 {
     text-transform: uppercase;
-    /*font-size: 55px;*/
+    font-size: 55px;
     font-weight: bold;
     letter-spacing: -1px;
     line-height: 70px;
